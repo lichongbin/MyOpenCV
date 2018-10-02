@@ -6,7 +6,7 @@ Created on Tue Oct  2 10:30:29 2018
 
 打开和关系摄像头的方法
 
-demonstration of opening and closing of video capture
+demonstration of open and close of video capture
 """
 
 import cv2
