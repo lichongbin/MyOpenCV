@@ -4,7 +4,7 @@ Created on Tue Oct  2 10:30:29 2018
 
 @author: licb-pc
 
-打开和关系摄像头的方法
+打开和关闭摄像头的方法
 
 demonstration of open and close of video capture
 """
