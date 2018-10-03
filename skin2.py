@@ -38,7 +38,7 @@ r_mask = cv2.inRange(imYcc, rrangel, rrangeh)
 t_mask = cv2.bitwise_and(y_mask, b_mask)
 mask = cv2.bitwise_and(t_mask, r_mask)
 
-res = cv2.bitwise_and(imYcc, imYcc, mask=mask)
+res = cv2.bitwise_and(resized, resized, mask=mask)
 
 cv2.imshow('res', res)
 cv2.waitKey (0)  
